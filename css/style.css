@@ -1,0 +1,87 @@
+/* 
+
+Template: Real State Website
+Author: Shuvo Mallick
+Description: Real State Template
+Version: 1.0.0
+Keywords: real state, Template, bootstrap template etc. 
+
+*/
+
+/* =========== CSS FILE INDEX =========== */
+/* ----- Utilities CSS ----- */
+/* ----- Style CSS ----- */
+/* ----- Responsive CSS ----- */
+/* =========== CSS FILE INDEX =========== */
+
+/* ===== STYLE INDEX ===== */
+/* 
+  1. Header Section
+  2. Hero/Banner Section
+  3. Category Section
+  10. Footer Section
+  */
+/* ===== STYLE INDEX ===== */
+
+/* =================== NEXT CSS FILE =================== */
+/* ===== VENDOR CSS ===== */
+/* =================== NEXT CSS FILE =================== */
+
+/* ===== IMPORT CSS FILE ===== */
+@import "./utilities.css";
+@import "./responsive.css";
+/* ===== IMPORT CSS FILE ===== */
+
+/* ===== NAVBAR START ===== */
+.navbar-nav li a {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--bs-gray-800);
+}
+
+.navbar-nav li a:hover {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--bs-primary);
+}
+
+.dropdown-menu li a {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--bs-gray-800);
+}
+
+.dropdown-menu li a:hover {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--bs-primary);
+}
+
+.nav-item .active {
+  color: var(--bs-primary);
+}
+/* ===== NAVBAR END ===== */
+
+/* ===== START===== */
+/* ===== END===== */
+
+/* ===== START===== */
+/* ===== END===== */
+
+/* ===== START===== */
+/* ===== END===== */
+
+/* ===== START===== */
+/* ===== END===== */
+
+/* ===== START===== */
+/* ===== END===== */
+
+/* ===== START===== */
+/* ===== END===== */
+
+/* ===== START===== */
+/* ===== END===== */
+
+/* ===== FOOTER START===== */
+/* ===== FOOTER END===== */
