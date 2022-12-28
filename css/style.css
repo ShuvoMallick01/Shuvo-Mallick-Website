@@ -36,7 +36,7 @@ Keywords: real state, Template, bootstrap template etc.
 .navbar-nav li a {
   font-weight: 600;
   font-size: 15px;
-  color: var(--bs-gray-800);
+  color: var(--bs-gray-700);
 }
 
 .navbar-nav li a:hover {
@@ -58,12 +58,20 @@ Keywords: real state, Template, bootstrap template etc.
 }
 
 .nav-item .active {
-  color: var(--bs-primary);
+  color: var(--bs-primary) !important;
 }
 /* ===== NAVBAR END ===== */
 
-/* ===== START===== */
-/* ===== END===== */
+/* ===== HERO/BANNER START===== */
+.hero-area {
+}
+
+.hero-area h1 {
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--bs-gray-900);
+}
+/* ===== HERO/BANNER END===== */
 
 /* ===== START===== */
 /* ===== END===== */
