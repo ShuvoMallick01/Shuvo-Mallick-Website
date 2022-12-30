@@ -96,9 +96,9 @@ i {
 
 /* ===== TITLE ===== */
 .section-title {
-  /* font-weight: 700;
-  font-size: 28px;
-  color: var(--bs-gray-900); */
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--bs-gray-900);
 }
 
 .page-title {
@@ -194,6 +194,12 @@ i {
 .hr {
   /* border: none; */
   /* border: 1px solid var(--bs-gray-300); */
+}
+
+.title-hr {
+  /* border: none; */
+  border: 1px solid var(--bs-gray-600);
+  width: 200px;
 }
 
 .border-bottom {
