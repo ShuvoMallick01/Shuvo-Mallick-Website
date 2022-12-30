@@ -33,6 +33,14 @@ Keywords: real state, Template, bootstrap template etc.
 /* ===== IMPORT CSS FILE ===== */
 
 /* ===== NAVBAR START ===== */
+.navbar .header-logo {
+  width: 130px !important;
+}
+
+.navbar .header-logo img {
+  width: 100% !important;
+}
+
 .navbar-nav li a {
   font-weight: 600;
   font-size: 15px;
@@ -63,7 +71,7 @@ Keywords: real state, Template, bootstrap template etc.
 /* ===== NAVBAR END ===== */
 
 /* ===== HERO/BANNER START===== */
-.hero-area {
+.hero-area p {
 }
 
 .hero-area h1 {
@@ -73,8 +81,50 @@ Keywords: real state, Template, bootstrap template etc.
 }
 /* ===== HERO/BANNER END===== */
 
-/* ===== START===== */
-/* ===== END===== */
+/* ===== STATUS START===== */
+.status-card {
+  cursor: pointer;
+  transition: all 300ms ease;
+  /* transition: background-color 0.22s ease-in-out, color 0.22s ease-in-out; */
+  background-color: #34a8530e;
+  /* background-color: var(--bs-gray-100); */
+  box-shadow: var(--shadow-small);
+}
+
+.status-card:hover {
+  box-shadow: var(--shadow-default);
+}
+
+.status-card .icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 40px;
+  background-color: #34a85341;
+  background-position: 50%;
+  font-size: 25px;
+  color: var(--bs-primary);
+}
+
+.status-card:hover .icon {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+
+/* .status-card:hover .icon {
+  background-color: var(--bs-primary);
+}
+
+.status-card .icon i {
+  font-size: 25px;
+  transition: all 300ms ease;
+  color: var(--bs-primary);
+}
+
+.status-card:hover i {
+  color: var(--bs-white);
+} */
+
+/* ===== STATUS END===== */
 
 /* ===== START===== */
 /* ===== END===== */
@@ -92,4 +142,4 @@ Keywords: real state, Template, bootstrap template etc.
 /* ===== END===== */
 
 /* ===== FOOTER START===== */
-/* ===== FOOTER END===== */
+/* ===== FOOTER END===== */ ;
