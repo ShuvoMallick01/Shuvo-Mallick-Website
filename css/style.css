@@ -85,8 +85,7 @@ Keywords: real state, Template, bootstrap template etc.
 .status-card {
   cursor: pointer;
   transition: all 300ms ease;
-  /* transition: background-color 0.22s ease-in-out, color 0.22s ease-in-out; */
-  background-color: #34a8530e;
+  background-color: var(--bs-card-bg);
   /* background-color: var(--bs-gray-100); */
   box-shadow: var(--shadow-small);
 }
@@ -108,23 +107,19 @@ Keywords: real state, Template, bootstrap template etc.
 .status-card:hover .icon {
   background-color: var(--bs-primary);
   color: var(--bs-white);
+  transition: all 500ms ease;
 }
-
-/* .status-card:hover .icon {
-  background-color: var(--bs-primary);
-}
-
-.status-card .icon i {
-  font-size: 25px;
-  transition: all 300ms ease;
-  color: var(--bs-primary);
-}
-
-.status-card:hover i {
-  color: var(--bs-white);
-} */
 
 /* ===== STATUS END===== */
+
+/* ===== START===== */
+/* ===== END===== */
+
+/* ===== START===== */
+/* ===== END===== */
+
+/* ===== START===== */
+/* ===== END===== */
 
 /* ===== START===== */
 /* ===== END===== */
