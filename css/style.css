@@ -109,11 +109,26 @@ Keywords: real state, Template, bootstrap template etc.
   color: var(--bs-white);
   transition: all 500ms ease;
 }
-
 /* ===== STATUS END===== */
 
-/* ===== START===== */
-/* ===== END===== */
+/* ===== SERVICE START===== */
+.service .service-badge {
+  z-index: 1;
+}
+
+.service .card-title,
+.service .card-text,
+.service .delivery {
+  font-size: 16px;
+  color: var(--bs-gray-800);
+  font-weight: 700;
+}
+
+.service .price {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* ===== SERVICE END===== */
 
 /* ===== START===== */
 /* ===== END===== */
