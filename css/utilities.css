@@ -191,6 +191,23 @@ i {
   border-color: var(--bs-primary-hover) !important;
 }
 
+.social-btn > i {
+  background-color: var(--bs-white);
+  padding: 9px;
+  border-radius: 50%;
+  box-shadow: var(--shadow-small);
+  font-size: 15px;
+  cursor: pointer;
+  color: var(--bs-gray-700);
+}
+
+.social-btn > i:hover {
+  color: var(--bs-white);
+  background-color: var(--bs-primary);
+  box-shadow: var(--shadow-large);
+  transition: all 300ms ease;
+}
+
 /* ===== BORDER ===== */
 hr {
   /* border: none; */
