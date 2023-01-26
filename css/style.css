@@ -167,10 +167,11 @@ Keywords: real state, Template, bootstrap template etc.
 .work-step .step {
   font-weight: 700;
   font-size: 20px;
-  color: var(--bs-gray-900);
+  color: var(--bs-gray-800);
 }
 
-.work-step .bref {
+.work-step .bref,
+.work-step .payment-procedure p {
   font-weight: 400;
   font-size: 16px;
   color: var(--bs-gray-700);
@@ -178,6 +179,17 @@ Keywords: real state, Template, bootstrap template etc.
 
 .work-step img {
   width: 80%;
+}
+
+.work-step .payment-procedure {
+  background-color: #f8f8e4;
+}
+
+.work-step .payment-procedure h4 {
+  color: var(--bs-gray-800);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 150%;
 }
 /* ===== WORK STEPS END===== */
 
