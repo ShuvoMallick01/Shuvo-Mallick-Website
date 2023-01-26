@@ -193,8 +193,20 @@ Keywords: real state, Template, bootstrap template etc.
 }
 /* ===== WORK STEPS END===== */
 
-/* ===== START===== */
-/* ===== END===== */
+/* ===== TESTIMONIAL START===== */
+.testimonial img {
+  width: 55px !important;
+}
+
+.testimonial .client-info h5 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.testimonial .client-info p {
+  font-size: 14px;
+}
+/* ===== TESTIMONIAL END===== */
 
 /* ===== START===== */
 /* ===== END===== */
