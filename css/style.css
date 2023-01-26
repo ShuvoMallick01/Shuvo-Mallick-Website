@@ -165,7 +165,7 @@ Keywords: real state, Template, bootstrap template etc.
 }
 
 .work-step .step {
-  font-weight: 700;
+  font-weight: 700 !important;
   font-size: 20px;
   color: var(--bs-gray-800);
 }
