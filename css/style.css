@@ -227,12 +227,13 @@ Keywords: real state, Template, bootstrap template etc.
   color: var(--bs-gray-900);
 }
 
-.custom-footer-quick-link > p,
-.custom-footer-about-link > p {
-  font-weight: 400;
-  font-size: 14px;
-  color: var(--bs-gray-800);
-  line-height: 1.7;
+.footer .quick-link a,
+.footer .useful-links a,
+.footer .contact a {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--bs-gray-800) !important;
+  line-height: 2;
 }
 
 /* ===== FOOTER END===== */ ;
